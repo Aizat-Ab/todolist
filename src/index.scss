@@ -1,0 +1,18 @@
+.container{
+    max-width: 840px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+body{
+    background: #3450A1;
+    font-family: 'Roboto', sans-serif;
+}
+ul, li, p{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}

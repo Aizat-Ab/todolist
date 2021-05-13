@@ -1,0 +1,16 @@
+.header{
+    color: white;
+    display: flex;
+    align-items: center;
+    &__title{
+        margin-right: 620px;
+        font-size: 32px;
+    }
+    &__text,
+    &__text1{
+        color: #8093c7;
+    }
+    &__text1{
+        margin-right: 15px;
+    }
+}
