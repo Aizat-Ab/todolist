@@ -1,0 +1,22 @@
+.form__input{
+    width: 600px;
+    outline: none;
+    border: 2px solid #DC77B9;
+    padding: 6px 10px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.form__btn{
+    border: 2px solid #DC77B9;
+    outline: none;
+    background: #DC77B9;
+    padding: 5px 15px;
+    margin-left: 10px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.1s;
+    &:hover{
+        background: #f041b3;
+    }
+}

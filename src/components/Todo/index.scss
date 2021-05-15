@@ -1,0 +1,25 @@
+.todo{
+    width: 650px;
+    padding: 8px 10px 8px 10px;
+    border-radius: 3px;
+    background: #041955;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+    &__btn{
+        position: absolute;
+        top: 0;
+        right: 5px;
+        background: none;
+        border: none;
+        outline: none;
+    }
+    &__input{
+        margin-right: 20px;
+    }
+    &__label{
+        display: flex;
+    }
+}
